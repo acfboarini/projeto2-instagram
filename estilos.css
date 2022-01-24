@@ -1,0 +1,384 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #FAFAFA;
+}
+
+a {
+    text-decoration: none;
+    color: #B2DFFC;
+}
+
+a:hover {
+    color: #0095F6;
+    transition: 300ms;
+}
+
+h2 {
+    color: #8E8E8E;
+    font-weight: 400;
+    font-size: 12px;
+}
+
+h3 {
+    color: #139EF2;
+    font-weight: 500;
+    font-size: 12px;
+}
+
+p{
+   margin-top: 30px;
+   font-size: 11px;
+   font-weight: 400;
+   color: #C7C7C7; 
+}
+
+strong {
+    font-weight: 500;
+}
+
+video {
+    width: 610px;
+}
+
+/******* Inicio Topo ********/
+
+.topo-fixo {
+    background-color: white;
+    width: 100%;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    border-bottom: 1px solid #DBDBDB;
+    z-index: 10;
+}
+
+.topo {
+    height: 54px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 935px;
+    margin: 0 auto;
+}
+
+.logo {
+    background-color: white;
+    display: flex;
+    align-items: center;
+}
+
+ion-icon {
+    font-size: 20px;
+}
+
+.separador-vertical {
+    background-color: #DBDBDB;
+    width: 1px;
+    height: 22px;
+    margin: 0px 10px;
+}
+
+.logo img {
+    margin-top: 4px;
+}
+
+.topo input {
+    width: 215px;
+    height: 28px;
+    border-radius: 3px;
+    background-color: #FAFAFA;
+    border: 1px solid #DBDBDB;
+}
+
+.icones {
+    background-color: white;
+    display: flex;
+    align-items: center;
+}
+
+.icones ion-icon {
+    margin-left: 20px;
+}
+
+/******* Fim Topo ********/
+
+/******* Inicio Principal ********/
+
+.principal {
+    margin: 74px auto 0px auto;
+    width: 935px;
+    display: flex; 
+}
+
+/****** Inicio Conteudo *******/
+
+.conteudo {
+    width: 612px;
+    margin-right: 30px;
+}
+
+.conteudo-topo {
+    background-color: white;
+    height: 118px;
+    display: flex;
+    position: relative;
+    align-items: center;
+    overflow: hidden;
+    /*overflow-x: scroll;*/
+    border: 1px solid #DBDBDB;
+    border-radius: 3px;
+}
+
+.seta {
+    position: absolute;
+    right: 5px;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.conteudo-topo ion-icon {
+    z-index: 1;
+    position: absolute;
+    color: white;
+    height: 26px;
+    width: 26px;
+}
+
+.sombra {
+    position: relative;
+    top: 2px;
+    right: 2px;
+    height: 22px;
+    width: 22px;
+    border-radius: 10px;
+    background-color: rgba(143, 143, 145, 0.2);
+}
+
+/*::-webkit-scrollbar {
+    display: none;
+}*/
+
+.stories {
+    width: 66px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 15px;
+    z-index: 0;
+}
+
+/*.stories .texto {
+    width: 66px;
+    text-overflow: ellipsis;
+}*/
+
+.img-stories {
+    position: relative;
+    width: 66px;
+    height: 66px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 5px;
+}
+
+.stories img {
+    position: absolute;
+    width: 56px;
+}
+
+.conteudo-principal {
+    background-color: white;
+    border: 1px solid #DBDBDB;
+    border-radius: 3px;
+    margin-top: 20px;
+}
+
+.conteudo-principal img {
+    width: 610px;
+}
+
+.conteudo1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 15px;
+}
+
+.conteudo1 .nome {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.conteudo1 input {
+    width: 80%;
+    border: 0;    
+    height: 30px;
+}
+
+.conteudo1 .nome ion-icon {
+    margin-right: 20px;
+}
+
+/****** Fim Conteudo *******/
+
+/******* Inicio Sidebar *******/
+
+.sidebar {
+    width: 293px;   
+    position: fixed;
+}
+
+.user {
+    height: 118px;
+    position: relative;
+}
+
+.user > div:first-child {
+    position: relative;
+    top: 22.7px;
+    display: flex;
+    align-items: center;
+}
+
+.usuario {
+    display: flex;
+    align-items: center;
+}
+
+.sugestao {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.sugestao2 {
+    position: absolute;
+    bottom: 0px;
+    width: 293px;
+}
+
+.sidebar h1 {
+    font-weight: 500;
+    font-size: 14px;
+    color: #262626;
+}
+
+.sidebar div h2 {
+    font-weight: 500;
+    margin-top: 5px;
+}
+
+.sidebar img{
+    margin-right: 15px;
+}
+
+img.img-menor {
+    width: 32px;
+}
+
+/******* Fim Sidebar *********/
+
+/******* Fim Principal ********/
+
+/****** parte mobile oculta *********/
+
+.topo-mobile {
+    display: none;
+}
+
+.lastbar {
+    display: none;
+}
+
+/****** parte mobile oculta *********/
+
+/********* layout sem sidebar ******/
+@media (max-width: 935px) {
+
+    .sidebar-fluid {
+        display: none;
+    }
+
+    .principal {
+        justify-content: center;
+        width: 614px;
+    }
+
+    .conteudo {
+        margin: 0;
+    }
+
+    .topo {
+        padding: 0px 20px;
+    }
+}
+
+/******* layout mobile *****/
+
+@media (max-width: 614px) {
+
+    .topo {
+        display: none;
+    }
+
+    .topo-mobile {
+        height: 54px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        max-width: 614px;
+        margin: 0 auto;
+        padding: 0 15px;
+    }
+
+    .principal {
+        width: 100%;
+        margin-top: 54px;
+        justify-content: center;
+        margin-bottom: 54px;
+    }
+
+    .conteudo {
+        width: 100%;
+    }
+
+    .conteudo-topo {
+        margin-bottom: 0;
+        border-top: 0;
+        border-right: 0;
+        border-left: 0;
+        border-radius: 0;
+    }
+
+    .seta {
+        display: none;
+    }
+
+    .conteudo-principal {
+        border: 0;
+    }
+
+    .conteudo-principal > img {
+        width: 100%;
+    }
+
+    .lastbar {
+        height: 54px;
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        background-color: white;
+        padding: 15px;
+        box-sizing: border-box;
+        border-top: 1px solid #DBDBDB;
+    }
+}
